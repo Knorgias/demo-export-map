@@ -1,0 +1,19 @@
+{
+  "name": "demo-export-map",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

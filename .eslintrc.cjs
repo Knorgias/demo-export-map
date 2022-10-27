@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   plugins: ['eslint-plugin-import'],
   env: {
@@ -11,4 +12,9 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {},
+  settings: {
+    'import/resolver': {
+      [path.resolve('resolver.cjs')]: {},
+    },
+  },
 };
